@@ -72,7 +72,7 @@ a {
   border: darkblue solid;
   object-fit: top;
   position: absolute;
-  top: 80px;
+  top: 85px;
   left: calc(65% - 50px);
 }
 
