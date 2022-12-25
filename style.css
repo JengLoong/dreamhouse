@@ -72,7 +72,7 @@ a {
   border: darkblue solid;
   object-fit: top;
   position: absolute;
-  top: 85px;
+  top: 80px;
   left: calc(65% - 50px);
 }
 
@@ -161,6 +161,41 @@ a {
   font-size: 36px;
 }
 
+ .cards h1 {
+  font-size: 2.0rem;
+  margin-top: 30px;
+}
+.cards h2 {
+  font-size: 1.5rem;
+  padding-bottom: -10px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+
+  color: #828282;
+}
+.cards h3 {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  border-bottom: 1px groove #ccc;
+  display: inline-block;
+}
+.cards h3 + p {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.cards p {
+  color: #828282;
+  margin-top: 0;
+}
+.cards a {
+  color: #00b6b1;
+}
+.cards a:hover {
+  opacity: 0.5;
+} 
+
 footer {
   text-align: center;
   color: #828282;
@@ -201,40 +236,5 @@ footer a {
   padding: 45px 20px 10px 20px;
   border-radius: 5px;
   box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
-}
-
-.cards h1 {
-  font-size: 2.0rem;
-  margin-top: 30px;
-}
-.cards h2 {
-  font-size: 1.5rem;
-  padding-bottom: -10px;
-  margin-top: -20px;
-  margin-bottom: 20px;
-
-  color: #828282;
-}
-.cards h3 {
-  font-size: 1rem;
-  margin-top: 0;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  border-bottom: 1px groove #ccc;
-  display: inline-block;
-}
-.cards h3 + p {
-  display: inline-block;
-  margin-bottom: 10px;
-}
-.cards p {
-  color: #828282;
-  margin-top: 0;
-}
-.cards a {
-  color: #00b6b1;
-}
-.cards a:hover {
-  opacity: 0.5;
-}
+  }
 }
