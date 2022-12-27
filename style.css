@@ -70,6 +70,7 @@ a {
   height: 150px;
   border-radius: 100px;
   border: darkblue solid;
+  background: lightblue;
   object-fit: top;
   position: absolute;
   top: 80px;
