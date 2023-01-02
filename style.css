@@ -74,7 +74,7 @@ a {
   object-fit: top;
   position: absolute;
   top: 90px;
-  left: calc(65% - 50px);
+  left: calc(55% - 50px);
 }
 
 .card {
@@ -92,7 +92,7 @@ a {
 }
 .card h2 {
   font-size: 1rem;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   margin-top: 8px;
   margin-bottom: 20px;
   border-bottom: 1px dotted #ccc;
