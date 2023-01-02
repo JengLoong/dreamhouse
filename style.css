@@ -66,15 +66,15 @@ a {
 }
 
 .profile {
-  width: 110px;
-  height: 110px;
-  border-radius: 50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
   border: darkblue solid;
   background: lightblue;
   object-fit: cover;
   position: absolute;
   top: 90px;
-  left: calc(55% - 50px);
+  left: calc(75% - 50px);
 }
 
 .card {
