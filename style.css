@@ -71,7 +71,7 @@ a {
   border-radius: 50px;
   border: darkblue solid;
   background: lightblue;
-  object-fit: top;
+  object-fit: cover;
   position: absolute;
   top: 90px;
   left: calc(55% - 50px);
